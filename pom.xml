@@ -643,5 +643,11 @@
             </build>
         </profile>
    </profiles>
+   <distributionManagement>
+    <repository>
+      <id>nexus-site</id>
+      <url>${nexusdns}/repository/maven-snapshots/</url>
+    </repository>
+  </distributionManagement>
 
 </project>
