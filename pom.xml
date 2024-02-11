@@ -646,7 +646,7 @@
    <distributionManagement>
     <repository>
       <id>nexus-site</id>
-      <url>${nexusdns}/repository/maven-snapshots/</url>
+      <url>${nexusdns}/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
 
